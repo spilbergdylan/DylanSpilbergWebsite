@@ -1,0 +1,43 @@
+.mainContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  background-color: #818181;
+  display: flex;
+  height: 96vh;
+  padding: 20px;
+  justify-content: center;
+  
+
+}
+    .contactGrid {
+      margin-top: 10vh;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+            gap: 10vw;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .contactItem {
+      text-align: center;
+      transition: transform 0.3s ease; /* Add a CSS transition for scaling on hover */
+    }
+
+    .contactItem:hover {
+      transform: scale(1.1); /* Scale up on hover */
+    }
+
+    .logo{
+      width: 15vw;
+      
+    }
+
+    .mainContent h1{
+      color:white;
+      position: absolute;
+      font-size: 8vw;
+      margin: 0;
+    }
